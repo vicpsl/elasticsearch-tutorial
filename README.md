@@ -28,7 +28,7 @@ echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://arti
 (sudo apt-get update && )sudo apt-get install elasticsearch
 ```
 
-:warning: **Noter**: We will use a very basic non authentificated setup
+:warning: **Note**: We will use a very basic non authentificated setup
 
 ```shell
 nano etc/elasticsearch/elasticsearch.yml
