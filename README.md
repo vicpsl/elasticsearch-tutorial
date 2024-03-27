@@ -40,7 +40,7 @@ nano etc/elasticsearch/elasticsearch.yml
 
 - Limit ES memory usage:<br/>
 https://www.elastic.co/guide/en/elasticsearch/reference/current/advanced-configuration.html#set-jvm-options
-  - Add a line delimited file with a .options extension to /etc/elasticsearch/jvm.options.d with following arguments:<br/>
+  - Add a line delimited file with a *.options* extension to */etc/elasticsearch/jvm.options.d* with following arguments:<br/>
   Example limiting to 2G:<br/>
   ```
   -Xms2g
