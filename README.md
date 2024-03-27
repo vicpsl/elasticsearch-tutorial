@@ -3,7 +3,7 @@
 
 Welcome to the Elasticsearch indexation Tutorial!
 
-**Before running the notebook, you will need to have a local running instance of Elasticsearch**
+**Before running the notebook, you will need to have a running local instance of Elasticsearch**
 
 ES8 installation guidelines (Debian package on Linux):
 
