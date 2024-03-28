@@ -3,7 +3,7 @@
 
 Welcome to the Elasticsearch indexation Tutorial!
 
-**Before running the notebook, you will need to have a local running instance of Elasticsearch**
+**Before running the notebook, you will need to have a running local instance of Elasticsearch**
 
 ES8 installation guidelines (Debian package on Linux):
 
@@ -40,7 +40,7 @@ nano etc/elasticsearch/elasticsearch.yml
 
 - Limit ES memory usage:<br/>
 https://www.elastic.co/guide/en/elasticsearch/reference/current/advanced-configuration.html#set-jvm-options
-  - Add a line delimited file with a .options extension to /etc/elasticsearch/jvm.options.d with following arguments:<br/>
+  - Add a line delimited file with a *.options* extension to */etc/elasticsearch/jvm.options.d* with following arguments:<br/>
   Example limiting to 2G:<br/>
   ```
   -Xms2g
